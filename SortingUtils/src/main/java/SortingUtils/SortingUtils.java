@@ -4,7 +4,7 @@ package SortingUtils;
  * Hello world!
  *
  */
-public class App 
+public class SortingUtils 
 {
     public static void main( String[] args )
     {
