@@ -1,4 +1,4 @@
-package SortingUtils;
+package sortingUtils;
 
 /**
  * Hello world!
