@@ -2,13 +2,18 @@ package sortingUtils;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * This is the interface for various sorting techniques.
+/***
+ * This class is used for insertion sort technique.
  * @author ajay.patel
  *
  */
-public class InsertionSort 
+public abstract class InsertionSort 
 {
+	/**
+	 * API for sorting integer array through InsertionSort algo
+	 * @param input
+	 * @return
+	 */
 	public static int[] sortIntArray(final int[] input){
 		long startTime = System.nanoTime();
 		int key;
