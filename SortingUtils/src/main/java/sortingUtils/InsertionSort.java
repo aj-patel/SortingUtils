@@ -4,6 +4,8 @@ import java.util.concurrent.TimeUnit;
 
 /***
  * This class is used for insertion sort technique.
+ * To be used for relatively small size of elements. Adaptable, stable, in-place and online.
+ * Average case O(n*n), best case O(n) and suitable for already substantially sorted ranges in input array.
  * @author ajay.patel
  *
  */
