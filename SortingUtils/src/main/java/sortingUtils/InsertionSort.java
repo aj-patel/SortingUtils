@@ -12,9 +12,9 @@ import java.util.concurrent.TimeUnit;
 public abstract class InsertionSort 
 {
 	/**
-	 * API for sorting integer array through InsertionSort algo
-	 * @param input
-	 * @return
+	 * API for sorting integer array through InsertionSort technique.
+	 * @param input[]
+	 * @return sorted array
 	 */
 	public static int[] sortIntArray(final int[] input){
 		long startTime = System.nanoTime();
