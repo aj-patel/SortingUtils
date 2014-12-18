@@ -3,9 +3,9 @@ package sortingUtils;
 import java.util.concurrent.TimeUnit;
 
 /***
+ * For sorting using Selection Sort technique.
  * 
  * @author ajay.patel
- * This is a utility for sorting using Selection Sort technique.
  */
 public class SelectionSort {
 	
