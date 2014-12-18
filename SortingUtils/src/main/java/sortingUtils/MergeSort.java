@@ -14,9 +14,9 @@ public class MergeSort {
 	
 	
 	/**
-	 * @param input 
-	 * @return integer sorted array.
 	 * Use this API to sort int values using MergeSort technique.
+	 * @param input 
+	 * @return sorted int array.
 	 */
 	public static int[] sortIntArray(int [] input){
 		
@@ -81,7 +81,7 @@ public class MergeSort {
 	/**
 	 * Creating another array from existing array.
 	 * @param array
-	 * @return
+	 * @return newArray
 	 */
 	private static int[] createArrayFromExisting(int[] array){
 		int newArray[] = new int [array.length];
